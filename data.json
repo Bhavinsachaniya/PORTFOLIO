@@ -1,0 +1,147 @@
+{
+  "personalInfo": {
+    "name": "Bhavin Sachaniya",
+    "title": "Full Stack Developer",
+    "email": "bhavin.sachaniya.200@gmail.com"
+  },
+  "header": {
+    "title": "Full Stack Dev.",
+    "subtitle": "Scroll to explore my work"
+  },
+  "navigation": {
+    "headerLinks": [
+      { "name": "Portfolio", "url": "https://bhavinsachaniya.in" },
+      { "name": "Medium", "url": "https://medium.com/@bhavinsachaniya" },
+      { "name": "Behance", "url": "https://www.behance.net/bhavinsachaniya" },
+      { "name": "Figma", "url": "https://www.figma.com/design/lKyFGPZmRLbqTkH0hRC4hk/portfolio?node-id=0-1&p=f" }
+    ],
+    "socialLinks": [
+      { "name": "X", "url": "https://x.com/BHAVINDOTDRAFT" },
+      { "name": "LinkedIn", "url": "https://www.linkedin.com/in/bhavindotdraft" },
+      { "name": "GitHub", "url": "https://github.com/Bhavinsachaniya" },
+      { "name": "Instagram", "url": "https://www.instagram.com" },
+      { "name": "Medium", "url": "https://medium.com/@bhavinsachaniya" }
+    ]
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I'm a software engineer building high-performance web apps using JavaScript, Python, Express.js, Next.js, TypeScript, MongoDB, Sql, Docker, Tailwind CSS, GitHub, and Figma. I am a polymath with a passion for building scalable solutions and solving complex problems."
+  },
+  "projects": {
+    "title": "Selected Works",
+    "items": [
+      {
+        "id": "01",
+        "title": "PIIFILL",
+        "description": "A high-performance CLI tool that works 100% offline to mask sensitive data (PII) in server logs, JSON, SQL dumps, and visual files.",
+        "link": "https://piifill.bhavinsachaniya.in"
+      },
+      {
+        "id": "02",
+        "title": "JAWAB - Realtime Chatbot",
+        "description": "Conversational search engine that crawls websites, indexes content, and answers queries using AI.",
+        "link": "https://youtu.be/pBZBUYmBH_8?si=0rEbndV6iQILVqZo"
+      },
+      {
+        "id": "03",
+        "title": "Secure Blog Backend API",
+        "description": "Secure REST API with JWT and OTP authentication, supporting blogs, comments, and social features.",
+        "link": "https://inkwell-in.netlify.app/"
+      },
+      {
+        "id": "04",
+        "title": "AI Resume Builder",
+        "description": "AI-powered resume builder with authentication, DOCX export, and editable templates.",
+        "link": "https://github.com/Bhavinsachaniya/Resume-Gen"
+      },
+      {
+        "id": "05",
+        "title": "RedisOS — Redis Playground",
+        "description": "A hands-on playground designed for developers to master Redis concepts through practical execution.",
+        "link": "https://redisos.bhavinsachaniya.in"
+      },
+      {
+        "id": "06",
+        "title": "Git Visual Flow",
+        "description": "An interactive web tool that visualizes Git branching strategies and commands in real-time with smooth animations.",
+        "link": "https://git.bhavinsachaniya.in"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "items": [
+      {
+        "title": "SDE Intern",
+        "company": "Silver Touch Technologies Limited",
+        "duration": "January 2026 - Present",
+        "description": "Collaborated cross-functionally with development teams to design, implement, and deploy scalable internal solutions. Optimized website and application performance."
+      },
+      {
+        "title": "UI/UX Designer",
+        "company": "InfoOcean",
+        "duration": "June 2025 - July 2025",
+        "description": "Designed and prototyped the complete company website for InfoOcean, focusing on modern UI, seamless user experience, and responsive design systems."
+      },
+      {
+        "title": "Graphic Designer",
+        "company": "Pehchaan The Street School (Trust)",
+        "duration": "July 2025 - October 2025",
+        "description": "Developed visual assets and marketing collateral, focusing on impactful storytelling through digital design and community outreach materials."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "hardSkills": {
+      "title": "Hard Skills",
+      "items": [
+        "JavaScript",
+        "Python",
+        "Express.js",
+        "Next.js",
+        "TypeScript",
+        "MongoDB",
+        "Sql",
+        "Docker",
+        "Tailwind CSS",
+        "GitHub",
+        "Figma"
+      ]
+    },
+    "softSkills": {
+      "title": "Soft Skills",
+      "items": ["Leadership", "Innovation", "Problem Solving", "Management"]
+    }
+  },
+  "quotes": [
+    {
+      "className": "svgtext--1 relative left-[-10%]",
+      "filterType": "blur",
+      "filterId": "blur",
+      "pathId": "text-curve1",
+      "pathDefinition": "M 0 100 Q 250 200 500 100 Q 750 0 1000 100",
+      "text": "Darkness along the way doesn't always mean the road has ended.",
+      "viewBox": "0 0 1000 200"
+    },
+    {
+      "className": "relative left-[-10%]",
+      "filterType": "blur",
+      "filterId": "blur2",
+      "pathId": "text-curve11",
+      "pathDefinition": "M 0 100 Q 250 0 500 100 Q 750 200 1000 100",
+      "text": "Sometimes, it's just night-you only need to wait for the sunrise.",
+      "viewBox": "0 0 1000 200"
+    }
+  ],
+  "footer": {
+    "title": "Get in Touch",
+    "links": [
+      { "name": "X", "url": "https://x.com/BHAVINDOTDRAFT" },
+      { "name": "LinkedIn", "url": "https://www.linkedin.com/in/bhavindotdraft" },
+      { "name": "GitHub", "url": "https://github.com/Bhavinsachaniya" },
+      { "name": "Medium", "url": "https://medium.com/@bhavinsachaniya" },
+      { "name": "Mail", "url": "mailto:it'sme@bhavinsachaniya.in" }
+    ]
+  }
+}

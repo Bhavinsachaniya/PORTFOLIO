@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bhavin Sachaniya - Full Stack Developer</title>
+    <meta name="description" content="A responsive portfolio for Bhavin Sachaniya, a passionate and detail-oriented Full Stack Developer with skills in UI/UX design, backend development, and JavaScript/Node.js." />
+    <meta name="keywords" content="react, frontend, backend, full stack, portfolio, svg, animation, nodejs, mongodb" />
+    <meta name="author" content="Bhavin Sachaniya" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/rhw1vur.css">
+    <style>
+        @keyframes loaderAnim {
+            to {
+                opacity: 1;
+                transform: scale3d(0.5,0.5,1);
+            }
+        }
+        .loader-anim {
+            animation: loaderAnim 0.7s linear infinite alternate forwards;
+        }
+        body {
+            --color-text: #fff;
+            --color-bg: #0a0104;
+            --color-link: #5c5c5c;
+            --color-link-hover: #fff;
+            --color-description: #504f4f;
+            color: var(--color-text);
+            background-color: var(--color-bg);
+            font-family: poynter-oldstyle-display-con, serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .font-poynter { font-family: poynter-oldstyle-display-con, serif; }
+        .font-news-gothic { font-family: news-gothic-std, sans-serif; }
+        /* SVG Text styles from original CSS */
+        .svgtext text {
+            fill: #fff;
+            font-size: 42px;
+        }
+        .svgtext--1 text {
+            fill: #fff;
+        }
+        .svgtext--2 text {
+            fill: #8569c2;
+        }
+        .svgtext--3 text {
+            font-size: 32px;
+        }
+        .svgtext--4 text {
+            font-size: 48px;
+            fill: #f9e9a4;
+        }
+
+        /* Scroll Animation */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-on-scroll {
+            opacity: 0;
+            will-change: transform, opacity;
+        }
+
+        .is-visible {
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+
+        /* Skills Tags */
+        .skill-tag {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            margin: 0.35rem;
+            border: 1px solid #504f4f;
+            border-radius: 999px;
+            transition: all 0.3s ease;
+            color: #a0a0a0;
+        }
+        .skill-tag:hover {
+            background-color: #8569c2;
+            border-color: #8569c2;
+            color: #0a0104;
+        }
+        
+        /* New Project Item Styles */
+        .project-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2.5rem 1.5rem;
+            border-bottom: 1px solid #2a2a2a; /* A subtle border */
+            text-decoration: none;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+            cursor: pointer;
+        }
+        .project-item:first-child {
+            border-top: 1px solid #2a2a2a;
+        }
+        .project-item:hover {
+            background-color: #110508; /* A very subtle hover state */
+            border-color: #504f4f;
+        }
+        .project-item-content {
+             display: flex;
+             align-items: flex-start;
+        }
+        .project-item-number {
+            font-size: 1.5rem;
+            color: #504f4f;
+            margin-right: 2rem;
+            transition: color 0.3s ease;
+            padding-top: 0.25rem;
+        }
+        .project-item:hover .project-item-number {
+            color: #8569c2;
+        }
+        .project-item-title {
+            font-size: 1.75rem;
+            text-transform: uppercase;
+            font-weight: normal;
+            margin: 0 0 0.5rem 0;
+            color: var(--color-text);
+            transition: color 0.3s ease;
+        }
+        .project-item:hover .project-item-title {
+            color: #8569c2;
+        }
+        .project-item-description {
+            font-family: news-gothic-std, sans-serif;
+            color: #a0a0a0;
+            max-width: 60ch; /* Limit line length for readability */
+        }
+        .project-item-link-text {
+            font-family: news-gothic-std, sans-serif;
+            text-transform: uppercase;
+            color: #a0a0a0;
+            white-space: nowrap;
+            opacity: 0;
+            transform: translateX(-10px);
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+        .project-item:hover .project-item-link-text {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "imagesloaded": "https://aistudiocdn.com/imagesloaded@^5.0.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-[#0a0104]">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
