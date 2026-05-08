@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import AnimatedSvgText from './components/AnimatedSvgText';
 import { usePortfolioData } from './hooks/usePortfolioData';
+import { useSEO } from './hooks/useSEO';
 import { Link, Project, ExperienceItem, Quote } from './types';
 
 // Loader component shown during preloading
@@ -75,6 +76,7 @@ const AnimatedSection: React.FC<AnimatedSectionProps> = ({ children, className }
 
 const App: React.FC = () => {
     const { data, loading, error } = usePortfolioData();
+    useSEO(data);
 
     if (loading) {
         return <Loader />;
